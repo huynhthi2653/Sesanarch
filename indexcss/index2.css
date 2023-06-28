@@ -1,0 +1,6684 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+  
+    box-sizing: border-box;
+    font-family: 'Calibri Light', sans-serif;
+        scroll-behavior: smooth;
+}
+footer{
+  background-color: #111;
+}
+.hjk1{
+  font-size: 45px;
+}
+
+
+section
+{  
+    padding: 100px;
+
+    margin-top: 0px;
+}
+#home{
+    width: 100%;
+}
+header.sticky{
+    background-color: #e29a51;
+    opacity: 0;
+  
+
+}
+.project .hjk1{
+  margin-left: 13px;
+}
+.project .hjk2{
+  margin-left: 19px;
+}
+header.sticky:hover{
+    background-color: #e29a51;
+    opacity: 1;
+
+
+}
+.project .noidungwork
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.workBx{
+    margin-top: 0px;
+ 
+  }
+  .workBx img{
+    filter: grayscale(0%);
+  }
+  .workBx:hover img{
+    filter: grayscale(0);
+  }
+  .workBx h5{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 17px;
+
+  }
+  
+.project .content .workBx{
+    width: 50%;
+    padding: 2px;
+}
+.project #contentt .workBx{
+    width: 50%;
+    padding: 20px;
+}
+.project .noidungwork .workBx{
+    width: 33%;
+    padding: 17px;
+}
+.project .content .workBx img{
+    max-width: 100%;
+}
+.banner
+{
+    position: relative;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+::selection{
+    background-color: #ff850b;
+}
+
+
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 5px 420px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e29a51;
+
+}
+
+.contenBx{
+    opacity: 0;
+}
+header.sticky{
+    background: #ff850ba7;
+   padding: 5px 100px;
+ 
+
+}
+header .logo
+{
+    
+    color: #fff;
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+}
+#contentt img{
+    width: 100%;
+}
+.noidungwork img{
+    width:100%; 
+}
+#contentt{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+
+
+
+
+#tieptheoo{
+    width: 150px;
+    height: 30px;
+    background-color: #111;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+
+
+header ul
+{
+    top: 3.5px;
+     right: 50px;
+    position: relative;
+    display: flex;
+
+    
+}
+header .ht img
+{
+ width: 3.5%;
+    position:absolute;
+   left: 148%;
+    bottom: 18.5px;
+ 
+}
+.htt{
+    position: relative;
+    display: flex;
+}
+header ul li 
+{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    display: inline-block;
+    margin-left: 25px;
+    color:white;
+    text-decoration: none;
+    font-family: 'Calibri Light', sans-serif;
+       
+    font-weight:bold;
+
+  }
+header .menu{
+    margin-left: 10px;
+}
+header.sticky ul li a:hover{
+    color: #111;
+}
+header ul li a:hover{
+    color: #111;
+}
+header.sticky ul li a{
+    color: white;
+}
+.heading
+{
+    width: 100%;
+    text-align:center;
+    margin-bottom: 30px;
+    color: #111;
+
+}
+
+.heading h2{
+    font-weight: 600;
+    font-size:30px;
+}
+
+.content
+{
+    display: flex;
+    justify-content: space-between;
+}
+#contentt
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenBx h3
+{
+    font-size: 24px;
+    margin-bottom:10px;
+}
+.about{
+    background-color:#fff;
+    
+}
+
+  
+#khung{
+    background-color: #0a0b0b;
+    width: 150px;
+    height: 30px;
+    margin-left: 29%;
+    margin-top: 30px;
+    border: 3px solid #1d1f21;
+    cursor: pointer;
+    text-align: center;
+}
+#khung a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 400;  
+    color: #fff;
+    font-family: 'Calibri Light', sans-serif;
+  }
+#khung:hover{
+    background-color: #fff;   
+}
+#khung a:hover{
+    color: #131414;   
+}
+#khung:hover{
+    border: 2px solid #181819;
+    
+}
+#khung:hover a{
+    color: #111213;
+}
+.heading.white{
+color: #fff;
+}
+.services .content{
+  
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services{
+    background-color: #fff;
+}
+.services #contentt{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.services .content .servicesBX
+{
+    padding: 50px 20px;
+    background-color: #ff850b;
+    color: #fff;
+    width: 300px;
+    min-height: 350px;
+    margin: 40px;
+    text-align: center;
+    transition: 0.5s;
+    letter-spacing: 0.3mm ;
+
+}
+.heading.white h2{
+    color: #111;
+
+}
+.contactinfo a{
+  color: white;
+}
+.services #contentt .servicesBX
+{
+   
+    background: #222;
+    color: #111;
+
+  
+    text-align: center;
+    transition: 0.5s;
+}
+.services .content .servicesBX h6{
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 22px;
+    font-family: 'Calibri Light', sans-serif;
+    font-weight: bold;
+  }
+.services .content .servicesBX:hover{
+    background: #111;
+}
+.services .content .servicesBX img{
+    max-width: 80px;
+    filter: invert(1);
+}
+.services #contentt .servicesBX img{
+    max-width: 80px;
+    filter: invert(1);
+}
+.services .content .servicesBX h2{
+    font-size:20px;
+    font-weight: 600; 
+   
+}
+.workBx h5{
+  font-family: 'Calibri Light', sans-serif;
+  color: #111;
+}
+
+.project .noidungwork 
+{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.project .content .snip1584{
+    width: 50%;
+    padding: 0px;
+}
+.project #contentt .snip1584{
+    width: 50%;
+    padding: 0px;
+}
+.project .noidungwork .snip1584{
+    width: 50%;
+    padding: 5px;
+}
+
+
+
+
+.project .noidungwork .snip1584 a{
+    color: #0a0b0b;
+    text-decoration: none;
+
+}
+.contentBx{
+    text-align: center;
+}
+.contentBx h3 ,p{
+    color: black;
+}
+.contactInfo h3{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom :10px;
+}
+.services .content .servicesBX{
+  line-height: 20px;
+}
+.contactInfo
+{
+ 
+    min-width: 10%;
+    background-color: #ff850ba7;
+    padding: 10px 25px;
+   
+   
+}
+.contactInfoBx{
+    position: relative;
+}
+.contactInfoBx .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+}
+
+.contactInfo .skill{
+        font-size: 28px;
+        
+        color: #fff;
+        border-bottom: 1px solid white;
+        padding: 0 0 5px 0;
+        margin: 0 0 10px 0;
+        line-height: 25px;
+        display: inline-block;
+}
+.contactInfo .box .icon{
+    min-width: 40px;
+    padding-top: 0px;
+    display: flex;
+    align-items: flex-start;
+    font-size: 24px;
+    color: #fff;
+}
+.contactInfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    color: #fff;
+    flex-direction: column;
+    font-weight: 300;
+}
+.cell-a .thongtin .thongtin1 p{
+  color: #111;
+}
+.contactInfo .box .text h3
+{
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0;
+}
+.contactInfo .box .text a{
+    color: #fff;
+    text-decoration: none;
+}
+.table_on_top{
+    position: fixed;
+    z-index: 999;
+    right: 10px;
+    bottom: 0px;
+}
+.table_on_top ul{
+    list-style: none;
+    position: relative;
+    display: flex;
+}
+.table_on_top ul .tooltipa a img{
+  border-radius: 30%;
+}
+.table_on_top ul .tooltipa{
+    margin:0 0 0 10px ;
+    position: relative;
+}
+.table_on_top ul .tooltipa a{
+    width: 30px;
+    height: 30px;
+    display: table;
+    text-align: center;
+    line-height: 35px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.table_on_top ul .tooltipa a img{
+    vertical-align: middle;
+   
+}
+.tooltipa .tooltiptext1 {
+   
+    visibility: hidden;
+    width: 111px;
+    height: 30px;
+    background-color: #f8991d4d;
+    color: #fff;
+    border-radius: 6px;
+    padding: 1px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  
+    bottom: 50px;
+    right: 115%;
+  }
+.table_on_top ul .tooltipa a img:hover{
+    background-color: rgb(203, 211, 211);
+    border-radius: 20px;
+
+
+}
+.tooltipa:hover .tooltiptext1 {
+    visibility: visible;
+  }
+  .bot{
+    width: 100%;
+    height: 50px;
+
+    margin-bottom: 0px;
+   color: white;
+   
+}  
+  .quote {
+    padding-top: 15px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .services .content{
+
+    margin-top: -20px;
+}
+/*Responsive*/
+@media(max-width:3000px) and (min-width:991px){
+  #about .heading1{
+    margin-left: 19px;;
+  }
+  #about .content{
+    margin-left: 19px;;
+
+  }
+
+  .cl5{
+    margin-left: 35px;
+  }
+  #services .heading1{
+    margin-left: 19px;;
+
+  }
+  #services .content{
+    margin-left: 19px;;
+  }
+}
+@media(max-width:991px )
+{
+ 
+ul.menu
+
+    .hjk .hjk1{
+      margin-top: 70px;
+    }
+    .content .contentBx1 .h3{
+      font-size:1px;
+    }
+    #about h2{
+      margin-left: 10px;
+    }
+    #services h2{
+      margin-left: 10px;
+    }
+    .cell-a .thongtin{
+      width: 265%;
+      margin-top: -45px;
+      min-height: 70%;
+      z-index: 1;
+      font-size: 16px;
+      margin-bottom: 20px;
+      background-color: white;
+    
+    }
+    .cell-a .inside{
+      margin-bottom: 40px;
+    }
+
+
+   
+
+    .banner h2
+    {
+        font-size: 1.5em;
+    }
+    .banner h3
+    {
+        font-size: 1em;
+    }
+    .btn a
+    {
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+    .heading h2
+    {
+        font-size: 24px;
+    }
+    .contentBx h3
+    {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .services{
+         padding: 10px 10px;
+    }
+    .about{
+        padding: 10px 10px;
+    }
+    
+    .content{
+        flex-direction: column;
+        font-size: 18px;
+    }
+
+    .services .content .servicesBX{
+        margin: 1px;
+  
+    }
+  
+  
+    .testimonial .content .testimonialBx{
+    min-width: calc(100% - 40px);
+    padding: 40px 20px;
+    margin: 10px;
+    background: #2196f3;
+    }
+    .w50{
+        margin-top: 20px;
+      text-align: center;
+    }
+    .about .w50 img{
+        margin-bottom: 20px;
+    }
+    .map{
+        width: 100%;
+    }
+   
+    .testimonial .content .testimonialBx{
+    min-width: calc(100% - 40px);
+    padding: 40px 20px;
+    margin: 10px;
+  
+    }
+    .contactInfo{
+        margin: 20px 0;
+    }
+   
+    .services{
+      margin-top: 100px;
+    }
+    .contact{
+        padding: 10px 10px;
+    }
+    .content .servicesBX{
+      width: 210px;
+    }
+    .services .content .servicesBX {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      padding: 20px 20px;
+      background-color: #ff850b;
+      color: #fff;
+      width: 210px;
+      min-height:50px;
+      margin: 15px;
+      text-align: center;
+      transition: 0.5s;
+      letter-spacing: 0.3mm;
+  }
+  .heading1 .hjk #hjk4{
+    font-size: 50px;
+  }
+
+}
+@media(width:912px){
+  
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 120px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 18px;
+  }
+  section.about {
+    padding-top: 200px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 18px;
+}
+hr {
+  height: 2px;
+  background-color: #ff8c1a;
+  width: 96%;
+  font-size: px;
+  margin-left: 10px;
+  margin-top: -11px;
+}
+  #hjk4{
+    margin-left: 12px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+  #pppp{
+    margin-left: -9px;
+  }
+  .about{
+    padding: 120px 10px;
+  }
+    .wrapper {
+                      
+        width: 100%;
+      }
+      .project{
+        padding: 1px 10px;
+      }
+      
+      .services .content .servicesBX {
+        padding: 20px 3px;
+      }
+
+      .cell-a .thongtin{
+        width: 201%;
+        margin-top: -20px;
+        min-height: 78%;
+        margin-left: 19px;
+        font-size: 18px;
+        background-color:white;
+      }
+      .contentBx1 p{
+        font-size: 20px;
+        min-height: 140%;
+        text-align:justify;
+
+
+      }
+
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+    .contentBx1{
+margin-left: 10px;
+    }
+      section#contact{
+        width: 70%;
+        margin: 0 auto;
+      }
+      .heading1 .box{
+        position: absolute;
+        width: 109%;
+        height:10px;
+        
+        left:43.6%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      }
+      section#services{
+        padding-top: 36px;
+      }
+      .heading1  #pppp{
+        
+        top: 17px;
+        left: 85%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      } .heading1  #pppp{
+        
+        top: 17px;
+        left: 92%;
+        padding-top: 7px;
+        font-size: 29px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      }
+      .hjk .hjk1{
+        font-size: 40px;
+      }
+      .heading1 .hjk #hjk4{
+        font-size: 45px;
+      }
+
+
+}
+@media(max-width:1000px) and (min-width:920px){
+  .grid{
+    margin-top: 40px;
+  }
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 120px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 18px;
+  }
+  section.about {
+    padding-top: 200px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 18px;
+}
+hr {
+  height: 2px;
+  background-color: #ff8c1a;
+  width: 96%;
+  font-size: px;
+  margin-left: 10px;
+  margin-top: -11px;
+}
+  #hjk4{
+    margin-left: 12px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+  #pppp{
+    margin-left: -9px;
+  }
+  .about{
+    padding: 120px 10px;
+  }
+    .wrapper {
+                      
+        width: 100%;
+      }
+      .project{
+        padding: 1px 10px;
+      }
+      
+      .services .content .servicesBX {
+        padding: 20px 3px;
+      }
+
+      .cell-a .thongtin{
+        width: 201%;
+        margin-top: -20px;
+        min-height: 110%;
+        margin-left: 19px;
+        font-size: 18px;
+        background-color:white;
+      }
+      .contentBx1 p{
+        font-size: 20px;
+        min-height: 140%;
+        text-align:justify;
+
+
+      }
+
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+    .contentBx1{
+margin-left: 10px;
+    }
+      section#contact{
+        width: 70%;
+        margin: 0 auto;
+      }
+      .heading1 .box{
+        position: absolute;
+        width: 107%;
+        height:10px;
+        
+        left:44.6%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      }
+      section#services{
+        padding-top: 36px;
+      }
+      .heading1  #pppp{
+        
+        top: 17px;
+        left: 85%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      } .heading1  #pppp{
+        
+        top: 17px;
+        left: 92%;
+        padding-top: 7px;
+        font-size: 29px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      }
+      .hjk .hjk1{
+        font-size: 40px;
+      }
+      .heading1 .hjk #hjk4{
+        font-size: 45px;
+      }
+
+
+}
+@media(width:820px){
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 12px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 12px;
+}
+hr {
+  height: 2px;
+  background-color: #ff8c1a;
+  width: 96%;
+  font-size: px;
+  margin-left: 10px;
+  margin-top: -11px;
+}
+  #hjk4{
+    margin-left: 12px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+  #pppp{
+    margin-left: px;
+  }
+  .about{
+    padding: 120px 10px;
+  }
+    .wrapper {
+                      
+        width: 100%;
+      }
+      .project{
+        padding: 1px 10px;
+      }
+      
+      .services .content .servicesBX {
+        padding: 20px 3px;
+      }
+
+      .cell-a .thongtin{
+        width: 201%;
+        margin-top: -20px;
+        min-height: 78%;
+        margin-left: 19px;
+        font-size: 18px;
+        background-color:white;
+      }
+      .contentBx1 p{
+        font-size: 20px;
+        min-height: 140%;
+        text-align:justify;
+
+
+      }
+
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+    .contentBx1{
+margin-left: 10px;
+    }
+      section#contact{
+        width: 70%;
+        margin: 0 auto;
+      }
+      .heading1 .box{
+        position: absolute;
+        width: 109%;
+        height:10px;
+        
+        left:43.6%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      }
+      section#services{
+        padding-top: 36px;
+      }
+      .heading1  #pppp{
+        
+        top: 17px;
+        left: 85%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      } .heading1  #pppp{
+        
+        top: 17px;
+        left: 92%;
+        padding-top: 7px;
+        font-size: 29px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      }
+      .hjk .hjk1{
+        font-size: 40px;
+      }
+      .heading1 .hjk #hjk4{
+        font-size: 45px;
+      }
+
+
+}
+@media(max-width:840px) and (min-width:820px){
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 16px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 16px;
+}
+hr {
+  height: 2px;
+  background-color: #ff8c1a;
+  width: 96%;
+  font-size: px;
+  margin-left: 10px;
+  margin-top: -11px;
+}
+  #hjk4{
+    margin-left: 12px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+  #pppp{
+    margin-left: px;
+  }
+  .about{
+    padding: 120px 10px;
+  }
+    .wrapper {
+                      
+        width: 100%;
+      }
+      .project{
+        padding: 1px 10px;
+      }
+      
+      .services .content .servicesBX {
+        padding: 20px 3px;
+      }
+
+      .cell-a .thongtin{
+        width: 201%;
+        margin-top: -20px;
+        min-height: 120%;
+        margin-left: 19px;
+        font-size: 18px;
+        background-color:white;
+      }
+      .contentBx1 p{
+        font-size: 18px;
+        min-height: 140%;
+        text-align:justify;
+
+
+      }
+
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+    .contentBx1{
+margin-left: 10px;
+    }
+      section#contact{
+        width: 70%;
+        margin: 0 auto;
+      }
+      .heading1 .box{
+        position: absolute;
+        width: 109%;
+        height:10px;
+        
+        left:43.6%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      }
+      section#services{
+        padding-top: 36px;
+      }
+      #project1 .heading1  #pppp{
+        
+        top: 19px;
+        left: 87%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      } .heading1  #pppp{
+        
+        top: 17px;
+        left: 92%;
+        padding-top: 7px;
+        font-size: 40px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      }
+      .hjk .hjk1{
+        font-size: 40px;
+      }
+      .heading1 .hjk #hjk4{
+        font-size: 45px;
+      }
+
+
+}
+
+@media(max-width:819px) and (min-width:749px){
+ /* chinh font chu */
+ .cell-a .thongtin .thongtin1 p{
+  font-size: 18px;
+}
+
+.cell-a:hover .inside .thongtin .thongtin1 p{
+font-size: 18px;
+}
+section#about{
+padding-top: 70px;
+}
+.project{
+padding: 40px 5px;
+}
+.contentBx1
+{
+padding-left: 25px;
+text-align: justify;
+}
+.grid .cell {
+
+
+width: 33%;
+margin-right: 10px;
+
+;
+}
+.cl5{
+margin-left: 25px;
+}
+/* loi o gird */
+/* .grid{
+margin-left: 20px;
+} */
+header
+{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 5px 40px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e29a51;
+
+}
+header.sticky:hover{
+padding: 5px 20px;
+}
+#pppp{
+margin-left: -17px;
+}
+.project .hjk .hjk1{
+margin-left: 11px;
+}
+
+.about{
+padding: 40px 5px;
+
+}
+
+.heading1 .box{
+position: absolute;
+
+height:10px;
+width:110%;
+left:43%;
+top: 70%;
+transform: translate(-50%, -50%);
+background: white;
+box-sizing: border-box;
+overflow: hidden;
+
+border: 3px solid white;
+color: white;
+padding: 1px;
+}
+.cell{
+margin-top: 10px;
+}
+.cell-a .thongtin{
+width: 203%;
+margin-top: -20px;
+min-height: 130%;
+margin-left: 15px;
+font-size: 100px;
+background-color: white;
+}
+.contentBx1 p{
+font-size: 18px;
+min-height: 140%;
+text-align:justify;
+
+
+}
+
+.cell-a:hover .inside {
+transform: scale(1);
+opacity: 1;
+margin-left: 0px;
+
+margin-top: -15px;
+
+}
+.about .hjk .hjk1{
+margin-left: 10px;
+}
+hr{
+margin-left: 15px;
+}
+#services{
+padding-top: 100px;
+}
+.heading1 .hjk hr {
+background-color: #ff8c1a;
+width: 96%;
+font-size: px;
+margin-top: -11px;
+margin-left: 15px;
+}
+#about .hjk h2{
+margin-left: 20px;
+}
+#services .hjk h2{
+margin-left: 14px;
+}
+
+} 
+.heading1  #pppp{
+    
+top: 17px;
+left: 92%;
+padding-top: 7px;
+font-size: 29px;
+margin-right: 90%;
+color: #ff850b;
+
+}
+@media(width:768px){
+/* chinh font chu */
+.cell-a .thongtin .thongtin1 p{
+  font-size: 16px;
+}
+.cell-a:hover .inside .thongtin .thongtin1 p{
+font-size: 16px;
+}
+#about .contentBx1 p{
+font-size: 17px;
+}
+section#about{
+padding-top: 70px;
+}
+.project{
+padding: 40px 5px;
+}
+.contentBx1
+{
+padding-left: 25px;
+text-align: justify;
+}
+.grid .cell {
+
+
+width: 33%;
+margin-right: 10px;
+
+;
+}
+.cl5{
+margin-left: 25px;
+}
+/* loi o gird */
+/* .grid{
+margin-left: 20px;
+} */
+header
+{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  padding: 5px 80px;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e29a51;
+
+}
+header.sticky:hover{
+padding: 5px 20px;
+}
+#pppp{
+margin-left: -17px;
+}
+.project .hjk .hjk1{
+margin-left: 11px;
+}
+
+.about{
+padding: 40px 5px;
+
+}
+
+.heading1 .box{
+position: absolute;
+
+height:10px;
+width:110%;
+left:43%;
+top: 70%;
+transform: translate(-50%, -50%);
+background: white;
+box-sizing: border-box;
+overflow: hidden;
+
+border: 3px solid white;
+color: white;
+padding: 1px;
+}
+.cell{
+margin-top: 10px;
+}
+.cell-a .thongtin{
+width: 203%;
+margin-top: -20px;
+min-height: 100%;
+margin-left: 15px;
+font-size: 100px;
+background-color: white;
+}
+.contentBx1 p{
+font-size: 18px;
+min-height: 140%;
+text-align:justify;
+
+
+}
+
+.cell-a:hover .inside {
+transform: scale(1);
+opacity: 1;
+margin-left: 0px;
+
+margin-top: -15px;
+
+}
+.about .hjk .hjk1{
+margin-left: 10px;
+}
+hr{
+margin-left: 15px;
+}
+#services{
+padding-top: 100px;
+}
+.heading1 .hjk hr {
+background-color: #ff8c1a;
+width: 96%;
+font-size: px;
+margin-top: -11px;
+margin-left: 15px;
+}
+#about .hjk h2{
+margin-left: 20px;
+}
+#services .hjk h2{
+margin-left: 14px;
+}
+
+}
+@media(max-width:991) and (min-width:600){
+  section
+  {
+      padding: 100px 50px;
+  }
+  header.sticky{
+    background-color: #e29a51;
+    opacity: 0;
+   padding: 5px   10px;
+   color: #0a0b0b;
+
+}
+header .logo
+{
+    margin-left: 20px;
+  
+
+}
+header .ul .li a{
+  font-size: 5px;
+}
+    #services .content{
+      padding-bottom: 20px;
+    }
+  
+    hr{
+      margin-left: 10px;
+    }
+    header .menu{
+      margin-top: -10px;
+      margin-left: 30px;
+  }
+    header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e29a51;
+
+}
+header ul
+{
+    top: 3.5px;
+     right: 20px;
+    position: relative;
+    display: flex;
+
+    
+}
+.menu.active{
+  left: 0;
+  background-color: white;
+  color:#ff850b;
+  margin-top: 10px;
+  margin-left: 0px;
+}
+
+}
+@media(max-width:721px ) and (min-width:60px){
+    .w50{
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+}
+.textBx h2{
+    font-weight: lighter;
+    font-size: 3rem;
+}
+
+
+@media(width:820px){
+  header
+  {
+      position:fixed;
+      top: 0;
+
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 70px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+#about .contentBx1 p{
+    font-size: 18px;
+}
+  #hjk4{
+    margin-left: 12px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+  #pppp{
+    margin-left: -15px;
+  }
+  .about{
+    padding: 120px 10px;
+  }
+    .wrapper {
+                      
+        width: 100%;
+      }
+      .project{
+        padding: 1px 10px;
+      }
+      
+      .services .content .servicesBX {
+        padding: 20px 3px;
+      }
+
+      .cell-a .thongtin{
+        width: 206%;
+        margin-top: -20px;
+        min-height: 109%;
+        margin-left: 5px;
+        font-size: 20px;
+        background-color: white;
+      }
+      .grid{
+        padding-left: 10px;
+      }
+      .contentBx1 p{
+        font-size: 22px;
+        min-height: 140%;
+        text-align:justify;
+
+
+      }
+     
+      .grid .cell {
+
+
+        width: 33%;
+       margin-right: 10px;
+
+       ;
+       }
+       .cl5{
+        margin-left: 17px;
+       }
+      .grid{
+        display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+    
+      section#contact{
+        width: 70%;
+        margin: 0 auto;
+      }
+      .heading1 .box{
+        position: absolute;
+        width:109%;
+        height:10px;
+        
+        left:43.6%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      }
+      .heading1  #pppp{
+        
+        top: 17px;
+        left: 82%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      } .heading1  #pppp{
+        
+        top: 17px;
+        left: 86%;
+        padding-top: 7px;
+        font-size: 29px;
+        margin-right: 80%;
+        color: #ff850b;
+
+      }
+      .hjk .hjk1{
+        font-size: 40px;
+      }
+      .heading1 .hjk #hjk4{
+        font-size: 45px;
+      }
+
+
+}
+@media(width:820px){
+  header
+  {
+      position:fixed;
+      top: 0;
+
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 80px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+  #hjk4{
+    margin-left: 12px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+  #pppp{
+    margin-left: 3px;
+  }
+  .about{
+    padding: 120px 10px;
+  }
+    .wrapper {
+                      
+        width: 100%;
+      }
+      .project{
+        padding: 1px 10px;
+      }
+      
+      .services .content .servicesBX {
+        padding: 20px 3px;
+      }
+
+      .cell-a .thongtin{
+        width: 206%;
+        margin-top: -20px;
+        min-height: 107%;
+        margin-left: 5px;
+        font-size: 20px;
+        background-color: white;
+      }
+      .grid{
+        padding-left: 10px;
+        margin-top: 5px;
+      }
+      .contentBx1 p{
+        font-size: 20px;
+        min-height: 140%;
+        text-align:justify;
+
+
+      }
+      .grid .cell {
+
+
+        width: 33%;
+       margin-right: 10px;
+
+       ;
+       }
+       .cl5{
+        margin-left: 17px;
+       }
+      .grid{
+        display: flex;
+          align-items: center;
+          justify-content: center;
+      }
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+    
+      section#contact{
+        width: 70%;
+        margin: 0 auto;
+      }
+      .heading1 .box{
+        position: absolute;
+        width:109%;
+        height:10px;
+        
+        left:43.6%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      }
+      .heading1  #pppp{
+        
+        top: 17px;
+        left: 82%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+        margin-left: -10px;
+
+      } .heading1  #pppp{
+        
+        top: 17px;
+        left: 86%;
+        padding-top: 7px;
+        font-size: 29px;
+        margin-right: 80%;
+        color: #ff850b;
+
+      }
+      .hjk .hjk1{
+        font-size: 40px;
+      }
+      .heading1 .hjk #hjk4{
+        font-size: 45px;
+      }
+
+
+}
+/* airpadmini */
+@media(width:740px){
+  /* chinh font chu */
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 18px;
+    }
+
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 18px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   .cl5{
+    margin-left: 25px;
+   }
+  /* loi o gird */
+  /* .grid{
+    margin-left: 20px;
+  } */
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 40px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+ 
+  .about{
+    padding: 40px 5px;
+    
+  }
+  
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:110%;
+    left:43%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 203%;
+    margin-top: -20px;
+    min-height: 130%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+  .contentBx1 p{
+    font-size: 18px;
+    min-height: 140%;
+    text-align:justify;
+
+
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+.heading1  #pppp{
+        
+  top: 17px;
+  left: 92%;
+  padding-top: 7px;
+  font-size: 29px;
+  margin-right: 90%;
+  color: #ff850b;
+
+}
+@media(width:768px){
+  /* chinh font chu */
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 16px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 16px;
+  }
+  #about .contentBx1 p{
+    font-size: 17px;
+}
+  section#about{
+    padding-top: 70px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   .cl5{
+    margin-left: 25px;
+   }
+  /* loi o gird */
+  /* .grid{
+    margin-left: 20px;
+  } */
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 80px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+ 
+  .about{
+    padding: 40px 5px;
+    
+  }
+  
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:110%;
+    left:43%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 203%;
+    margin-top: -20px;
+    min-height: 119%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+  .contentBx1 p{
+    font-size: 18px;
+    min-height: 140%;
+    text-align:justify;
+
+
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+@media(width:896px){
+  /* chinh font chu */
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 17px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 17px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   .cl5{
+    margin-left: 25px;
+   }
+
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 10px 5px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+ 
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+ 
+  .about{
+    padding: 40px 5px;
+    
+  }
+  
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:110%;
+    left:43%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 203%;
+    margin-top: -20px;
+    min-height: 100%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+  .contentBx1 p{
+    font-size: 18px;
+    min-height: 140%;
+    text-align:justify;
+
+
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+@media(max-width:900px) and (min-width:860px){
+  /* chinh font chu */
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 17px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 17px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   .cl5{
+    margin-left: 25px;
+   }
+
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 10px 5px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+ 
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+ 
+  .about{
+    padding: 40px 5px;
+    
+  }
+  
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:108%;
+    left:44.3%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 203%;
+    margin-top: -20px;
+    min-height: 100%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+  .contentBx1 p{
+    font-size: 18px;
+    min-height: 140%;
+    text-align:justify;
+
+
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+
+
+@media(max-width:1098px ) and (min-width:1000px){
+    
+}
+@media(max-width:1000px ) and (min-width:601px){
+   
+
+}
+@media(max-width:692px ) and (min-width:601px){
+    
+}
+.services{
+    margin-top: -100px
+}
+@media(max-width:600px) 
+{
+  header, 
+  header.sticky{
+      padding: 10px 5px; 
+      z-index: 1000;
+  }
+  .hjk .hjk1{
+    margin-top: 50px;
+  }
+  header.sticky ul li a{
+    color: #e29a51;
+}
+
+  .menu{
+
+      position: fixed;
+      top:-1000px;
+      right: 0;
+      display: block;
+      text-align: center;
+      width: 100%;
+      height: 100vh;
+     background-color: #fefefe49;
+      transition: 0.1s;
+      z-index: 999;
+      
+    
+  }
+  .menu.active{
+      
+      top: 45px;
+     
+  }
+
+  .menu.active{
+    left: 0;
+    background-color: rgba(255, 255, 255, 0.832);
+
+    opacity: 0.0 - 1.0;
+
+    color:#ff850b;
+    margin-top: 10px;
+    margin-left: 0px;
+    padding-top: 40%;
+}
+header ul li a{
+
+    font-size: 24px;
+    margin: 10px;
+    color:#111;
+    margin-left: 0px;
+
+}
+
+header{
+    width: 100%;
+}
+body{
+    width: 100%;
+    
+}
+header.sticky:hover {
+  padding: 15px 2px;
+}
+.toggle{
+    width: 40px;
+    height:40px;
+    position: absolute;
+    left: 85%;
+    background: url(menu.png);
+    background-position: center;
+    background-size: 30px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color:#ff850b;
+
+}
+.toggle.active{
+    background: url(close.png);
+    background-position: center;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    color:#ff850b;
+
+}
+header.sticky .toggle
+{
+    filter: invert(1);
+    color:#ff850b;
+
+}
+  #services .hjk h2{
+    font-size: 33px;
+  }
+  .about .hjk h2{
+    font-size: 33px;
+    margin-left: 5px;
+  }
+  section
+  {
+      padding: 100px 10px;
+  }
+ .project .heading1 .hjk #hjk4{
+    font-size:33px;
+    margin-top: 30px;
+    padding-top: 23px;
+  }
+  .project .hjk h2{
+    font-size: 33px;
+    padding-top: 200px;
+  }
+    header .menu{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+    .content .contentBx1 .h3{
+      font-size: 15px;
+    }
+    .map iframe{
+        width: 100%;
+    }
+    .about .w50 img{
+        margin-left: 20px   ;
+        margin-top: 20px;
+    }
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    footer{
+        width: 100%;
+    }
+    .project .noidungwork .workBx{
+        width: 100%;
+    }
+    .project #contentt .workBx{
+        width: 100%;
+    }
+    .hjk .hjk1{
+      font-size: 0px;
+
+    }
+
+    .services{
+        padding: 2px 0px;
+    }
+    .services .content .servicesBX{
+        margin: 10px;
+    }
+    .services .content .servicesBX{
+        width: 70%;
+        padding: 5px 10px;
+    }
+
+    .about .content .contentBx #khung{
+        left: 0;
+    }
+    .w50{
+        margin-top: 10px;
+        margin-left: 0%;
+    }
+    body{
+      position: relative;
+    }
+    .heading1 .hjk2{
+  
+      margin-left: 30px;
+      top: 15px;
+      left: 96%;
+      font-size: 20px;
+
+      color: #ff8c1a;
+    }
+    .w50 img{
+        margin-left: 0%;
+    }
+    .heading1{
+        position: relative;
+
+    }
+    .heading1  #pppp{
+        
+        top: 17px;
+        left: 85%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+        margin-left: -20px;
+       
+      }
+  
+      .div7 .cell{
+ 
+       
+     }
+
+     .grid{
+        width: 100%;
+            margin-left: 0px;
+
+     }
+     .table_on_top{
+        position: fixed;
+        z-index: 999;
+ 
+        bottom: 0px;
+    }
+     .grid .cell {
+
+         
+  width: 25%;
+  margin-right: 70px;
+    
+ 
+  }
+
+.about .contentBx1{
+width: 100%;
+margin-top: -15px;
+}
+.cell-a .inside {
+transition:  transform 0.3s ease-in;
+transform: scale(1);
+opacity: 0;
+
+
+width: 100%;
+
+}
+
+.grid .cell .inside {
+position: absolute;
+
+left: 0px;
+
+
+height: 400px;
+top: 0;
+width: 200%;
+
+
+}
+
+body{
+width: 100%;
+}
+.wrapper {
+
+width: 100%;
+}
+.cell-a .thongtin{
+width: 230%;
+margin-top: -20px;
+min-height: 140%;
+margin-left: -10px;
+font-size: 18px;
+background-color: white;
+}
+.contentBx1 p{
+font-size: 18px;
+min-height: 140%;
+text-align: justify;
+
+}
+.cell-a:hover .inside {
+transform: scale(1);
+opacity: 1;
+margin-left: 0px;
+
+margin-top: -15px;
+
+}
+
+.heading1 .box{
+position: absolute;
+width:115%;
+height:10px;
+
+left:42%;
+top: 70%;
+transform: translate(-50%, -50%);
+background: white;
+box-sizing: border-box;
+overflow: hidden;
+
+border: 3px solid white;
+color: white;
+padding: 1px;
+}
+.services .hjk .hjk1{
+margin-left: 10px;
+}
+.hr{
+margin-left: 15px;
+width: 97%;
+}
+.heading1{
+position: relative;
+width: 100%;
+}
+
+#about{
+padding-top: 30px;
+}
+
+
+.hjk #hjk4{
+margin-left: 5px;
+}
+#services{
+margin-top: -50px;
+}
+.contactInfo
+{
+    
+    min-width: 40%;
+    background-color: #ff850ba7;
+    padding: 10px 10px ;
+   
+}
+section.project{
+    padding-top: 50px;
+}
+.hjk .hjk2{
+  margin-right: -16px;
+padding-left: 25px;
+}
+.menu.active{
+    left: 0;
+    color:#111;
+
+ 
+    margin-left: 0px;
+   
+}
+header ul li a{
+    font-size: 24px;
+    margin: 10px;
+    margin-left: 0px;
+
+}
+header.sticky{
+    background-color: #e29a51;
+    opacity: 0;
+   padding: 5px 100px;
+   height: 70px;
+
+}
+header.sticky .logo{
+    margin-top: 10px;
+}
+                      
+
+} 
+.heading1 .hjk #hjk4{
+  padding-top: 5px;
+
+}
+@media(max-width:570px ) and (min-width:547px){
+    .cell-a .thongtin{
+        width: 252%;
+        margin-top: -45px;
+        min-height: 136%;
+        z-index: 1;
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: white;
+      
+      }
+      .contentBx1 p{
+        font-size: 17px;
+        min-height: 140%;
+        text-align: justify;
+
+      }
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+      .hr{
+        height: 2px;
+        background-color: #ff8c1a;
+        width: 90%;
+        margin-left: 10px;
+        margin-top: -11px;
+      }
+      .heading1 .hjk1{
+        margin-left: 10px;
+      }
+      .heading1 .hjk .hjk2{
+        margin-right: 10px;
+      }
+      .heading1 .box{
+        position: absolute;
+        width:135%;
+        height:10px;
+        
+        left:39%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      #contact .contactInfo{
+        margin: 0 auto;
+        width: 70%;
+      }
+ 
+}
+
+
+@media(max-width:547px ) and (min-width:543px){
+    .cell-a .thongtin{
+        width: 260%;
+        margin-top: -45px;
+        min-height: 138%;
+        z-index: 1;
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: white;
+      
+      }
+      .contentBx1 p{
+        font-size: 17px;
+        text-align: justify;
+      }
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+      .hr{
+        height: 2px;
+        background-color: #ff8c1a;
+        width: 90%;
+        margin-left: 10px;
+        margin-top: -11px;
+      }
+      .heading1 .hjk1{
+        margin-left: 10px;
+      }
+      .heading1 .box{
+        position: absolute;
+        width:135%;
+        height:10px;
+        
+        left:39%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      #contact .contactInfo{
+        margin: 0 auto;
+        width: 70%;
+      }
+ 
+}
+@media(max-width:543px ) and (min-width:537px){
+    .cell-a .thongtin{
+        width: 230%;
+        margin-top: -45px;
+        min-height: 150%;
+        z-index: 1;
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: white;
+      
+      }
+        .cell-a .thongtin .thongtin1 p{
+    font-size: 19.7px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 19.7px;
+} 
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+      .heading1 .box{
+        position: absolute;
+        width:120%;
+        height:10px;
+        
+        left:39%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1  #pppp{
+        
+        top: 17px;
+        left: 85%;
+        font-size: 20px;
+        margin-right: 90%;
+        color: #ff850b;
+       margin-left: -40px;
+      }
+      .hr{
+        height: 2px;
+        background-color: #ff8c1a;
+        width: 90%;
+        margin-left: 10px;
+        margin-top: -11px;
+      }
+      .heading1 .hjk1{
+        margin-left: 10px;
+      }
+      #contact .contactInfo{
+        margin: 0 auto;
+        width: 70%;
+      }
+ 
+}
+
+@media(max-width:536px ) and (min-width:500px){
+    .cell-a .thongtin{
+        width: 255%;
+        margin-top: -45px;
+        min-height: 160%;
+        z-index: 1;
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: white;
+      
+      }
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+
+      }
+      .heading1 .box{
+        position: absolute;
+        width:135%;
+        height:10px;
+        
+        left:33%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1  #pppp{
+        
+        top: 22px;
+        left: 79%;
+        font-size: 29px;
+        margin-right: 90%;
+              margin-left: 15px;
+
+        color: #ff850b;
+
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      }
+      .contactInfo
+      {
+         
+          min-width: 70%;
+          background-color: #ff850ba7;
+          padding: 10px 25px
+          ;
+         
+      }
+      .hr{
+        height: 2px;
+        background-color: #ff8c1a;
+        width: 90%;
+        margin-left: 10px;
+        margin-top: -11px;
+      }
+      .heading1 .hjk1{
+        margin-left: 10px;
+      }
+      #contact .contactInfo{
+        margin: 0 auto;
+        width: 70%;
+      }
+ 
+      
+}
+@media(max-width:500px ) and (min-width:491px){
+  .cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 210%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:120%;
+    height:10px;
+    
+    left:38.7%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    padding-left: -10px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 77%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+ 
+    }
+@media(max-width:491px ) and (min-width:473px){
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  .cell-a .thongtin{
+    width: 246%;
+    margin-top: -45px;
+    min-height: 165%;
+    z-index: 1;
+    font-size: 17px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 17px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 17px;
+}
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:120%;
+    height:10px;
+    
+    left:38.7%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+  margin-left: -50px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 77.7%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+ 
+}
+
+@media(max-width:479px ) and (min-width:473px){
+  .cell-a .thongtin{
+    width: 246%;
+    margin-top: -45px;
+    min-height: 164%;
+    z-index: 1;
+    font-size: 17px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 17px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 17px;
+}
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:120%;
+    height:10px;
+    
+    left:37.9%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    padding-left: -10px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 77%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+ 
+}
+@media(max-width:473px ) and (min-width:450px){
+    .cell-a .thongtin{
+        width: 235%;
+        margin-top: -45px;
+        min-height: 156%;
+        z-index: 1;
+        font-size: 17px;
+        margin-bottom: 20px;
+        background-color: white;
+      
+      }
+      .contentBx1 p{
+        font-size: 16px;
+      }
+      #contentBx1 p{
+        font-size:10px;
+      }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 15px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 15px;
+}
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:120%;
+    height:10px;
+    
+    left:37.9%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    margin-left: -40px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 76%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+    margin-left: -40px;
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+ 
+}
+@media(max-width:450px ) and (min-width:437px){
+    .cell-a .thongtin{
+        width: 246%;
+        margin-top: -45px;
+        min-height: 160%;
+        z-index: 1;
+        font-size: 17px;
+        margin-bottom: 20px;
+        background-color: white;
+      
+      }
+      .contentBx1 p{
+        font-size: 16px;
+      }
+      #contentBx1 p{
+        font-size:10px;
+      }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 15px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 15px;
+}
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:123%;
+    height:10px;
+    
+    left:38%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    padding-left: -10px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 76%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+}
+@media(max-width:437px ) and (min-width:420px){
+  .cell-a .thongtin{
+    width: 246%;
+    margin-top: -45px;
+    min-height: 165%;
+    z-index: 1;
+    font-size: 17px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .contentBx1 p{
+    font-size: 16px;
+  }
+  #contentBx1 p{
+    font-size:10px;
+  }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 15px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 15px;
+}
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:123%;
+    height:10px;
+    
+    left:37%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    margin-left: -45px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 74.7%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+
+@media(max-width:374px ) and (min-width:360px){
+.cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 210%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+  .contentBx1 p{
+    font-size: 15px;
+  }
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:165%;
+    height:10px;
+    
+    left:30%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 22px;
+    left: 79%;
+    font-size: 29px;
+    margin-right: 90%;
+    color: #ff850b;
+
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  .hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: -11px;
+  }
+  .heading1 .hjk1{
+    margin-left: 10px;
+  }
+
+
+
+      
+ 
+}
+@media(max-width:537px ) and (min-width:520px){
+    .cell-a .thongtin{
+        width: 230%;
+        margin-top: -45px;
+        min-height: 156%;
+        z-index: 1;
+        font-size: 16px;
+        margin-bottom: 20px;
+        background-color: white;
+      
+      }
+      
+      .cell-a .inside{
+        margin-bottom: 40px;
+      }
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+        margin-bottom: 20px;
+
+      }
+      .hr{
+        height: 2px;
+        background-color: #ff8c1a;
+        width: 90%;
+        margin-left: 10px;
+        margin-top: -11px;
+      }
+      .heading1 .hjk1{
+        margin-left: 10px;
+      }
+      .heading1 .box{
+        position: absolute;
+        width:122%;
+        height:10px;
+        
+        left:37%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .about{
+        margin-top: 40px;
+      }
+      .heading1  #pppp{
+        
+        top: 22px;
+        left: 79%;
+        font-size: 29px;
+        margin-right: 90%;
+        color: #ff850b;
+
+      }
+      #contact .contactInfo{
+        margin: 0 auto;
+      }
+  
+ 
+}
+@media(max-width:420px ) and (min-width:400px){
+  .about .contentBx1 {
+  margin-top: -40px;
+  }
+  .cell-a .thongtin{
+    width: 246%;
+    margin-top: -45px;
+    min-height: 135%;
+    z-index: 1;
+    font-size: 17px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .grid .cell{
+    margin-top: 110px;
+  }
+  .contentBx1 p{
+    font-size: 16.7px;
+  }
+  #contentBx1 p{
+    font-size:10px;
+  }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 16px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 16px;
+}
+  #about h2{
+    margin-left: 4px;
+  }
+.grid{
+  margin-left: 8px;
+}
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+#contact{
+  width: 70%;
+  margin: 0 auto;
+}
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:125%;
+    height:10px;
+    
+    left:37%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    margin-left: -48px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 22px;
+    left: 74.7%;
+    font-size: 25px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+@media(max-width:374px ) and (min-width:360px){
+.cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 210%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 18.5px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 18.5px;
+}
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:165%;
+    height:10px;
+    
+    left:30%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 22px;
+    left: 79%;
+    font-size: 29px;
+    margin-right: 90%;
+    color: #ff850b;
+
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  .contentBx1 p{
+    font-size: 15px;
+  }
+  .hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: -11px;
+  }
+  .heading1 .hjk1{
+    margin-left: 10px;
+  }
+
+ 
+}
+
+@media(width:360px){
+  .cell-a .thongtin{
+      width: 265%;
+      margin-top: -45px;
+      min-height: 210%;
+      z-index: 1;
+      font-size: 16px;
+      margin-bottom: 20px;
+      background-color: white;
+    
+    }
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 19px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 19px;
+  }
+    .cell-a .inside{
+      margin-bottom: 40px;
+    }
+  
+    .cell-a:hover .inside {
+      transform: scale(1);
+      opacity: 1;
+      margin-left: 0px;
+  
+      margin-top: -15px;
+      margin-bottom: 20px;
+  
+    }
+    .heading1 .box{
+      position: absolute;
+      width:165%;
+      height:10px;
+      
+      left:30%;
+      top: 70%;
+      transform: translate(-50%, -50%);
+      background: white;
+      box-sizing: border-box;
+      overflow: hidden;
+    
+      border: 3px solid white;
+      color: white;
+      padding: 1px;
+    }
+    .heading1  #pppp{
+      
+      top: 22px;
+      left: 79%;
+      font-size: 29px;
+      margin-right: 90%;
+      color: #ff850b;
+  
+    }
+    .heading1{
+      position: relative;
+      width: 100%;
+    } 
+    .contentBx1 p{
+      font-size: 15px;
+    }
+    .hr{
+      height: 2px;
+      background-color: #ff8c1a;
+      width: 90%;
+      margin-left: 10px;
+      margin-top: -11px;
+    }
+    .heading1 .hjk1{
+      margin-left: 10px;
+    }
+  
+   
+  }
+  
+
+@media(max-width:399px) and (min-width:382px){
+  .about .contentBx1{
+    margin-top: -30px;
+  }
+  .cell-a .thongtin{
+    width: 255%;
+    margin-top: -45px;
+    min-height: 140%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 14px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 14px;
+}
+  .contentBx1 p{
+    font-size: 15px;
+  }
+
+}
+@media(max-width:383px) and (min-width:376px){
+  .cell-a .thongtin{
+    width: 255%;
+    margin-top: -45px;
+    min-height: 165%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .contentBx1 p{
+    font-size: 15px;
+  }
+}
+@media(max-width:400px ) and (min-width:376px){
+
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 14px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 14px;
+}
+
+  #contact{
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:126.5%;
+    height:10px;
+    
+    left:37%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    margin-left: -37px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 74%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+   
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+@media(max-width:374px ) and (min-width:360px){
+.cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 210%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 18.5px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 18.5px;
+}
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:165%;
+    height:10px;
+    
+    left:30%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .project .heading1 .hjk #pppp{
+    top: 32px;
+    left: 70%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+    margin-left: -40px;;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  .hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 10px;
+    margin-top: -11px;
+  }
+  .heading1 .hjk1{
+    margin-left: 10px;
+  }
+
+ 
+}
+@media(max-width:376px ) and (min-width:374px){
+  .cell-a .thongtin{
+    width: 257%;
+    margin-top: -40px;
+    min-height: 160%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 30px;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 14px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 14px;
+}
+  .contentBx1 p{
+    font-size: 16px;
+  }
+  #contact{
+    margin: 0 auto;
+    width: 70%;
+  }
+
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 14px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 14px;
+}
+
+  #contact{
+    margin: 0 auto;
+    width: 70%;
+  }
+      #contact{
+        width: 70%;
+        margin: 0 auto;
+        margin-bottom: 30px;
+      }
+      .grid{
+        margin-left: 8px;
+      }
+      
+      .wrapper{
+        margin: 40px auto 105px;
+      }
+      .contentBx1{
+        padding-left: 10px;;
+        text-align: justify;
+        margin-top: -20px;
+      }
+      
+      .contentBx1 p{
+        font-size: 14.7px;
+        width: 102%;
+      }
+      .contentBx1 h3{
+        font-size: 5px;
+      }
+     
+      #about h2{
+        margin-left: 4px;
+      }
+
+      .cell-a .inside{
+        margin-bottom: 40px;
+      }
+
+      .cell-a:hover .inside {
+        transform: scale(1);
+        opacity: 1;
+        margin-left: 0px;
+    
+        margin-top: -15px;
+        margin-bottom: 20px;
+
+      }
+      .heading1 .box{
+        position: absolute;
+        width:126.5%;
+        height:10px;
+        
+        left:36%;
+        top: 70%;
+        transform: translate(-50%, -50%);
+        background: white;
+        box-sizing: border-box;
+        overflow: hidden;
+      
+        border: 3px solid white;
+        color: white;
+        padding: 1px;
+      }
+      .heading1  #pppp{
+        
+        top: 102px;
+        left: 7%;
+        font-size: 20px;
+        margin-right: 20%;
+        color: #ff850b;
+        padding-left: -10px;
+
+      }
+      .hjk1{
+        font-size: 15px;
+        font-weight: 300;
+      }
+      .heading1  #pppp{
+        
+        top: 32px;
+        left: 72%;
+        font-size: 20px;
+        margin-right: 97%;
+        color: #ff850b;
+        margin-left: -40px;
+        
+
+      }
+      .heading1 h2.hjk2{
+        font-size: 20px;
+        margin-left: 17px;
+      }
+      .heading1{
+        position: relative;
+        width: 100%;
+      } 
+      hr{
+        height: 2px;
+        background-color: #ff8c1a;
+        width: 90%;
+        margin-left: 3px;
+        margin-top: -11px;
+      }
+      #services h2{
+margin-left: 10px;
+      }
+      .hr{
+        margin-left: 10px;
+        width: 94%;
+
+      }
+      .contact #contact .contactInfo{
+        width: 100px;
+      }
+      #contact{
+        padding: 0;
+      }
+ 
+      header.sticky{
+        padding: 1px 1px;
+      }
+
+
+}
+@media(max-width:374px ) and (min-width:360px){
+  .workBx h5{
+    font-weight: 590;
+  }
+  .cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 176%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 15px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 15px;
+}
+  .contentBx1 p{
+    font-size: 15px;
+  }
+  #contact{
+    margin: 0 auto;
+    width: 70%;
+  }
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:126.5%;
+    height:10px;
+    
+    left:36%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    padding-left: -10px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 71.5%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+ 
+@media(max-width:360px ) and (min-width:350px){
+  .cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 192%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 16px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 16px;
+}
+  .contentBx1 p{
+    font-size: 16px;
+  }
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:128%;
+    height:10px;
+    
+    left:35%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    margin-left: -50px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 70%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+ 
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+@media(max-width:300px ) and (min-width:250px){
+  .cell-a .thongtin{
+    width: 290%;
+    margin-top: -45px;
+    min-height: 240%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 16.7px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 16.7px;
+}
+  .contentBx1 p{
+    font-size: 16px;
+  }
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:130%;
+    height:10px;
+    
+    left:30%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+margin-left: -70px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 70%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;                              
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+@media(max-width:350px) and (min-width:345px){
+  .cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 198%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  #contact{
+    width: 70%;
+    margin: 0 auto;
+  }
+
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 15.5px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 15.5px;
+}
+  .contentBx1 p{
+    font-size: 16px;
+  }
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:129%;
+    height:10px;
+    
+    left:35%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    padding-left: -10px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 67%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+@media(max-width:345px ) and (min-width:330px){
+ 
+  .cell-a .thongtin{
+    width: 265%;
+    margin-top: -45px;
+    min-height: 200%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 15.5px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 15.5px;
+}
+  .contentBx1 p{
+    font-size: 16px;
+  }
+  #about h2{
+    margin-left: 4px;
+  }
+
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+#contact{
+  width: 70%;
+  margin: 0 auto;
+}
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:129%;
+    height:10px;
+    
+    left:34%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    padding-left: -10px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 65%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+
+}
+
+@media(max-width:330px ) and (min-width:320px){
+  .cell-a .thongtin{
+    width: 268%;
+    margin-top: -45px;
+    min-height: 210%;
+    z-index: 1;
+    font-size: 16px;
+    margin-bottom: 20px;
+    background-color: white;
+  
+  }
+  .contentBx1 p{
+    font-size: 16px;
+  }
+  #about h2{
+    margin-left: 4px;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 15.5px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 15.5px;
+}
+  .cell-a .inside{
+    margin-bottom: 40px;
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+    margin-bottom: 20px;
+
+  }
+  .heading1 .box{
+    position: absolute;
+    width:129%;
+    height:10px;
+    
+    left:34%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .heading1  #pppp{
+    
+    top: 102px;
+    left: 7%;
+    font-size: 20px;
+    margin-right: 10%;
+    color: #ff850b;
+    padding-left: -10px;
+
+  }
+  .hjk1{
+    font-size: 10px;
+  }
+  .heading1  #pppp{
+    
+    top: 32px;
+    left: 63%;
+    font-size: 20px;
+    margin-right: 97%;
+    color: #ff850b;
+     margin-left: -40px;;
+    
+
+  }
+  .heading1 h2.hjk2{
+    font-size: 20px;
+    margin-left: 17px;
+  }
+  .heading1{
+    position: relative;
+    width: 100%;
+  } 
+  hr{
+    height: 2px;
+    background-color: #ff8c1a;
+    width: 90%;
+    margin-left: 3px;
+    margin-top: -11px;
+  }
+  #services h2{
+margin-left: 10px;
+  }
+  .hr{
+    margin-left: 10px;
+    width: 94%;
+
+  }
+  .contact #contact .contactInfo{
+    width: 100px;
+  }
+  #contact{
+    padding: 0;
+  }
+
+  header.sticky{
+    padding: 1px 1px;
+  }
+}
+
+
+@media(max-width:395px ) and (min-width:300px){
+    header .menu{
+        width: 100%;
+        padding: 5px;
+    }
+    .map iframe{
+        width: 100%;
+    }
+    .about .w50 img{
+        margin-left: 20px   ;
+        margin-top: 20px;
+    }
+    body{
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    .thongtin1 img{}
+    .project .noidungwork .workBx{
+        width: 100%;
+    }
+    .project #contentt .workBx{
+        width: 100%;
+    }
+ 
+    .w50{
+        margin-top: 20px;
+        margin-left: 1%;
+    }
+    hr{
+        height: 2px;
+        background-color: #ff8c1a;
+        width: 90%;
+        margin-left: 3px;
+        margin-top: -11px;
+      }
+      #contact .contactInfo{
+        margin: 0 auto;
+      }
+}
+.contactInfo a{
+  color: white;
+}
+.contactInfo a:hover{
+  color: #111;
+}
+.project .contentn .workBxx{
+    width: 50%;
+}
+#giatri{
+    margin-top: 30PX;
+}
+.heading{
+    position: relative;
+}
+.box{
+position: absolute;
+width:80%;
+height:10px;
+
+left:10%;
+top: 10%;
+transform: translate(-50%, -50%);
+background: white;
+box-sizing: border-box;
+overflow: hidden;
+
+border: 3px solid white;
+color: white;
+padding: 1px;
+}
+.mySlides .img2{
+    width: 50px;
+}
+.hjk{
+    margin-top: -30px;
+}
+.hjk .hjk1{
+    margin-top: 10px;
+}
+.column{
+    width: 250px;
+
+    height: 400px;
+    margin-left: 30px;
+    
+
+
+}
+.mySlides img{
+    width: 200px;
+}
+.hjk{
+    margin-top: 20px;
+}
+.column .card .img{
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+    margin-left:55px;
+    border-radius: 50%;
+}
+.container{
+    background-color: #ff850b;
+    margin-top: -28px;
+    color: white;
+}
+.row{
+    width: 70%;
+    float: left;
+    justify-content: space-between;               
+    flex-wrap: wrap;
+    margin-top: 50px;
+    padding-left: 70px;
+}
+body{
+    width: 99%;
+}
+.showtt1{
+    width: 300px;
+    height: 50%;
+    margin-left: 50px;
+}
+.showtt{
+    width: 29%;
+    float: left;
+    margin-top: 50px;
+
+    
+}
+
+.button{
+    background-color: white;
+    color: orange;
+}
+.row{
+
+}
+.container h2{
+padding-top: 10px;
+}
+.mySlides h2{
+margin-left: 30px;
+}
+.mySlides p{
+margin-left: 30px;
+font-size: 20px;
+padding-bottom: 20px;
+color:#555;
+}
+.about{
+    width: 100%;
+}
+.about .contentBx1{
+    width: 100%;
+
+}
+.div7{
+    width: 50%;
+}
+
+.about .w50{
+    width: 50%;
+    width: 500px;
+    height:480px;
+    justify-content: space-between;
+    background-color:#ff8c1a;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.content{
+    margin-top: 20px;
+}
+body{
+    width: 100%;
+}
+.tv1{
+    width: 170px;
+ height: 200px;
+ margin-bottom: 20px;
+
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    border-radius: 10%;
+}
+.contentBx1 h3{
+    font-size: 25px;
+    color: #111;
+  
+margin-top: -20px;
+}
+.contentBx1 p{  
+    width: 96%;
+   color: #111;
+    margin-top: 0px;
+    text-align: justify;
+    font-size: 15px;
+}
+
+.content .contentBx1 h3{
+  font-family: 'Calibri Light', sans-serif;
+  color: #111;
+  
+
+}
+.thongtin .thongtin1 .h2{
+  font-family: 'Calibri Light', sans-serif;
+ 
+
+}
+
+
+.noidungwork .workBx img{
+    width: 100%;
+}
+@media (max-width: 1040px) and (min-width:1020px) {
+ 
+  .cell-a .png2{
+    height: 370px;
+    width: 100px;
+    object-fit: cover;
+  }
+.cell-a .thongtin{
+
+width: 400px;   
+  min-height: 160%;
+background-color: white;
+  font-size: 18px;
+  margin-left: -5px;;
+
+}
+.heading1 .box{
+  position: absolute;
+ 
+  height:10px;
+  width:108.8%;
+  left:43.5%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  border: 3px solid white;
+  color: white;
+  padding: 1px;
+}
+section.about{
+  padding-top: 30px;
+}
+section#services{
+  padding-top: 140px;
+}
+.heading1 #pppp {
+  top: 17px;
+  left: 86%;
+  padding-top: 7px;
+  font-size: 29px;
+  margin-right: 90%;
+  color: #ff850b;
+}
+.services .content .servicesBX {
+  padding: 30px 10px;
+  width: 185px;
+}
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 5px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e29a51;
+
+}
+}
+@media (width: 1024px) {
+ 
+
+.cell-a .thongtin{
+
+width: 400px;   
+  min-height: 160%;
+background-color: white;
+  font-size: 18px;
+  margin-left: -5px;;
+
+}
+.heading1 .box{
+  position: absolute;
+ 
+  height:10px;
+  width:108.8%;
+  left:43.5%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  border: 3px solid white;
+  color: white;
+  padding: 1px;
+}
+section.about{
+  padding-top: 30px;
+}
+section#services{
+  padding-top: 140px;
+}
+.heading1 #pppp {
+  top: 17px;
+  left: 86%;
+  padding-top: 7px;
+  font-size: 29px;
+  margin-right: 90%;
+  color: #ff850b;
+}
+.services .content .servicesBX {
+  padding: 30px 10px;
+  width: 185px;
+}
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 200px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e29a51;
+
+}
+header.sticky:hover{
+  padding: 5px 20px;
+}
+}
+@media (max-width: 1300px) and (min-width:1000px) {
+ 
+  .cell-a .png2{
+    height: 370px;
+    object-fit: cover;
+  }
+
+.cell-a .thongtin{
+
+width: 110%;   
+  min-height: 160%;
+background-color: white;
+  font-size: 18px;
+  margin-left: -5px;;
+
+}
+
+
+
+
+.heading1 .box{
+  position: absolute;
+ 
+  height:10px;
+  width:108.8%;
+  left:43.9%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  border: 3px solid white;
+  color: white;
+  padding: 1px;
+}
+section.about{
+  padding-top: 30px;
+}
+section#services{
+  padding-top: 140px;
+}
+#project1 .heading1 #pppp {
+  top: 17px;
+  left: 98%;
+  padding-top: 7px;
+  font-size: 29px;
+  margin-right: 90%;
+  color: #ff850b;
+  margin-left: -80px;
+}
+
+
+.services .content .servicesBX {
+  padding: 30px 10px;
+  width: 185px;
+}
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 5px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e29a51;
+
+}
+
+
+
+}
+@media (width: 1024px) {
+ 
+
+.cell-a .thongtin{
+
+width: 400px;   
+  min-height: 160%;
+background-color: white;
+  font-size: 18px;
+  margin-left: -5px;;
+
+}
+.heading1 .box{
+  position: absolute;
+ 
+  height:10px;
+  width:108.8%;
+  left:43.5%;
+  top: 70%;
+  transform: translate(-50%, -50%);
+  background: white;
+  box-sizing: border-box;
+  overflow: hidden;
+
+  border: 3px solid white;
+  color: white;
+  padding: 1px;
+}
+section.about{
+  padding-top: 30px;
+}
+section#services{
+  padding-top: 140px;
+}
+.heading1 #pppp {
+  top: 17px;
+  left: 86%;
+  padding-top: 7px;
+  font-size: 29px;
+  margin-right: 90%;
+  color: #ff850b;
+  margin-left: -10px;
+}
+.services .content .servicesBX {
+  padding: 30px 10px;
+  width: 185px;
+}
+header
+{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 200px;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e29a51;
+
+}
+header.sticky:hover{
+  padding: 5px 20px;
+}
+}
+@media(max-width: 1400px) and (min-width:1300px){
+  .heading1 .box{
+    position: absolute;
+    width:105.9%;
+    height:10px;
+    
+    left:45.3%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  section#services{
+    padding-top:150px;
+  }
+  section#about{
+    padding-top:40px;
+  }
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 5px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  #pppp{
+    margin-left: 0px;
+  }
+  .services .content .servicesBX {
+    padding: 40px 5px;
+    width: 240px;
+}
+  .hjk4{
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+
+  .cell-a .thongtin{
+
+   
+    min-height: 160%;
+background-color: white;
+    font-size: 18px;
+    margin-left: -5px;;
+
+  }
+  .grid .cell .inside {
+padding: 10px ;
+}
+
+}
+
+@media(width: 1280px){
+  .heading1 #pppp {
+    top: 17px;
+    left: 86%;
+    padding-top: 7px;
+    font-size: 29px;
+    margin-right: 90%;
+    color: #ff850b;
+    margin-left: 5px;
+  }
+  .heading1 .box{
+    position: absolute;
+    width:105.9%;
+    height:10px;
+    
+    left:45.3%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+}
+@media(width: 1180px){
+ 
+  .cell-a .png2{
+    height: 350px;
+    width: 120px;
+    object-fit: cover;
+  }
+  .heading1 .box{
+    position: absolute;
+    width:107.5%;
+    height:10px;
+    
+    left:44.7%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  section#services{
+    padding-top:150px;
+  }
+  section#about{
+    padding-top:40px;
+  }
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 250px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+  #pppp{
+    margin-left: 70px;
+  }
+  .services .content .servicesBX {
+    padding: 40px 5px;
+    width: 240px;
+}
+  .hjk4{
+    margin-left: 15px;
+    margin-top: 60px;
+    margin-bottom: -100px;
+  }
+
+  .cell-a .thongtin{
+
+   width: 470px;
+    min-height: 160%;
+background-color: white;
+    font-size: 18px;
+    margin-left: -5px;;
+
+  }
+ 
+  .grid .cell .inside {
+padding: 10px ;
+}
+
+}
+@media(max-width:860px) and (min-width:840px){
+  /* chinh font chu */
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 17px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 17px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   .cl5{
+    margin-left: 25px;
+   }
+
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+ 
+  .about{
+    padding: 40px 5px;
+    
+  }
+  
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:108%;
+    left:43.5%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  header .logo{
+    margin-left: 20px;
+    margin-top: -px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 203%;
+    margin-top: -20px;
+    min-height: 120%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+  .contentBx1 p{
+    font-size: 18px;
+    min-height: 140%;
+    text-align:justify;
+
+
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+@media(max-width:920px) and (min-width:900px){
+  /* chinh font chu */
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 19px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 19px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   .cl5{
+    margin-left: 25px;
+   }
+
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 80px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+ 
+  .about{
+    padding: 40px 5px;
+    
+  }
+  
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:107.5%;
+    left:44%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  header .logo{
+    margin-left: 20px;
+    margin-top: -px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 203%;
+    margin-top: -20px;
+    min-height: 130%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+  .contentBx1 p{
+    font-size: 20px;
+    min-height: 140%;
+    text-align:justify;
+
+
+  }
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+@media(max-width:700px) and (min-width:600px){
+  /* chinh font chu */
+  .services .content .servicesBX{
+    width: 150px;
+  }
+    .cell-a .thongtin .thongtin1 p{                   
+      font-size: 17.5px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 17.5px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  #about .contentBx1 p{
+    font-size: 15px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  #about .contentBx1 p{
+    font-size: 10px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   section#project{
+    padding: 10px;
+    /* margin-top: 0px; */
+}
+   .cl5{
+    margin-left: 25px;
+   }
+  /* loi o gird */
+  /* .grid{
+    margin-left: 20px;
+  } */
+  .heading1 #pppp {
+    top: 17px;
+    left: 92%;
+    padding-top: 19px;
+    font-size: 20px;
+    margin-right: 90%;
+    color: #ff850b;
+}
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#e29a51;
+    padding: 0 0;
+
+}
+header .logo{
+margin-left: 25px;
+}
+#about .hjk h2 {
+  margin-left: 20px;
+  font-size: 37px;
+}
+#services .hjk h2 {
+  margin-left: 20px;
+  font-size: 37px;
+}
+.heading1 .hjk #hjk4 {
+  padding-top: 20px;
+  font-size: 38px;
+
+}
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+  .project .noidungwork .workBx {
+    width: 33%;
+    padding: 10px;
+}
+  .about{
+    padding: 40px 5px;
+    
+  }
+  header.sticky{
+    padding: 0px;
+  }
+  #about .contentBx1 p {
+    font-size: 17px;
+    min-height: 140%;
+    text-align: justify;
+}
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:112.4%;
+    left:42.5%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 205%;
+    margin-top: -20px;
+    min-height: 135%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+ 
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+@media(max-width:750px) and (min-width:700px){
+  /* chinh font chu */
+  .services .content .servicesBX{
+    width: 150px;
+  }
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 17px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 17px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  #about .contentBx1 p{
+    font-size: 15px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  #about .contentBx1 p{
+    font-size: 10px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   section#project{
+    padding: 10px;
+    /* margin-top: 0px; */
+}
+   .cl5{
+    margin-left: 25px;
+   }
+  /* loi o gird */
+  /* .grid{
+    margin-left: 20px;
+  } */
+  .heading1 #pppp {
+    top: 17px;
+    left: 92%;
+    padding-top: 19px;
+    font-size: 20px;
+    margin-right: 90%;
+    color: #ff850b;
+}
+  header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#e29a51;
+    padding: 0 0;
+
+}
+header .logo{
+margin-left: 25px;
+}
+#about .hjk h2 {
+  margin-left: 20px;
+  font-size: 37px;
+}
+#services .hjk h2 {
+  margin-left: 20px;
+  font-size: 37px;
+}
+.heading1 .hjk #hjk4 {
+  padding-top: 20px;
+  font-size: 38px;
+
+}
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+  .project .noidungwork .workBx {
+    width: 33%;
+    padding: 10px;
+}
+  .about{
+    padding: 40px 5px;
+    
+  }
+  header.sticky{
+    padding: 0px;
+  }
+  #about .contentBx1 p {
+    font-size: 17px;
+    min-height: 140%;
+    text-align: justify;
+}
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:112.4%;
+    left:42.5%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 205%;
+    margin-top: -20px;
+    min-height: 130%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+ 
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+} 
+@media(width:896px){
+  /* chinh font chu */
+    .cell-a .thongtin .thongtin1 p{
+      font-size: 18.7px;
+    }
+  .cell-a:hover .inside .thongtin .thongtin1 p{
+    font-size: 18.7px;
+  }
+  section#about{
+    padding-top: 70px;
+  }
+  .project{
+    padding: 40px 5px;
+  }
+  .contentBx1
+  {
+    padding-left: 25px;
+    text-align: justify;
+  }
+  .grid .cell {
+
+
+    width: 33%;
+   margin-right: 10px;
+
+   ;
+   }
+   .cl5{
+    margin-left: 25px;
+   }
+
+  header
+  {
+      position:fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 50px;
+      padding: 5px 70px;
+      z-index: 1000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #e29a51;
+  
+  }
+  header.sticky:hover{
+    padding: 5px 20px;
+  }
+ #pppp{
+  margin-left: -17px;
+ }
+  .project .hjk .hjk1{
+    margin-left: 11px;
+  }
+ 
+  .about{
+    padding: 40px 5px;
+    
+  }
+  
+  .heading1 .box{
+    position: absolute;
+   
+    height:10px;
+    width:108%;
+    left:44%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .cell{
+    margin-top: 10px;
+  }
+  .cell-a .thongtin{
+    width: 203%;
+    margin-top: -20px;
+    min-height: 100%;
+    margin-left: 15px;
+    font-size: 100px;
+    background-color: white;
+  }
+  .contentBx1 p{
+    font-size: 18px;
+    min-height: 140%;
+    text-align:justify;
+}
+
+  .cell-a:hover .inside {
+    transform: scale(1);
+    opacity: 1;
+    margin-left: 0px;
+
+    margin-top: -15px;
+
+  }
+  .about .hjk .hjk1{
+    margin-left: 10px;
+  }
+  hr{
+    margin-left: 15px;
+  }
+  #services{
+    padding-top: 100px;
+  }
+  .heading1 .hjk hr {
+    background-color: #ff8c1a;
+    width: 96%;
+    font-size: px;
+    margin-top: -11px;
+    margin-left: 15px;
+  }
+   #about .hjk h2{
+   margin-left: 20px;
+  }
+  #services .hjk h2{
+    margin-left: 14px;
+   }
+  
+}
+@media(width:1920px){
+  .container .box{
+    position: absolute;
+    width:104.3%;
+    height:10px;
+    
+    left:47%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+ .project .heading1 #pppp {
+    top: 17px;
+    left: 93%;
+    padding-top: 7px;
+    font-size: 29px;
+    margin-right: 90%;
+    color: #ff850b;
+}
+}
+@media(width:1920px){
+  .container .box{
+    position: absolute;
+    width:104.3%;
+    height:10px;
+    
+    left:47%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background: white;
+    box-sizing: border-box;
+    overflow: hidden;
+  
+    border: 3px solid white;
+    color: white;
+    padding: 1px;
+  }
+  .contentBx1 p{
+    font-size: 17px;
+  }
+  .cell-a .thongtin .thongtin1 p{
+    font-size: 16px;
+  }
+.cell-a:hover .inside .thongtin .thongtin1 p{
+  font-size: 16px;
+}
+  .heading1 #pppp {
+    top: 17px;
+    left: 93.5%;
+    padding-top: 7px;
+    font-size: 29px;
+    margin-right: 90%;
+    color: #ff850b;
+}
+
+}
