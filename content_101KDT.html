@@ -7194,7 +7194,7 @@ tabindex="-1"
     <header> 
 
         <div class="toggle" onclick="toggleMenu();"></div>
-        <a href="./index.html" class="logo"><img src="/sesan.png" width="120px" alt=""></a> 
+        <a href="./index.html" class="logo"><img src="./sesan.png" width="120px" alt=""></a> 
         <span><ul class="menu" style="float:right">
             <li><a href="./index.html" onclick="toggleMenu();">Home</a></li>
             <li><a href="./project.html" onclick="toggleMenu();">Projects</a> </li> 
@@ -7317,7 +7317,7 @@ tabindex="-1"
         <header id="menu1"> 
 
         <div class="toggle" onclick="toggleMenu();"></div>
-        <a href="#" class="logo"><img src="/sesan.png" width="120px" alt=""></a> 
+        <a href="#" class="logo"><img src="./sesan.png" width="120px" alt=""></a> 
         <span><ul class="menu" style="float:right">
             <li><a href="./index.html" onclick="toggleMenu();">Home</a></li>
             <li><a href="index.html#project1" onclick="toggleMenu();">Projects</a> </li> 
@@ -7997,89 +7997,77 @@ data-animation="none"
         >
     
         <div id="mt666" class="row mt666 sqs-row">
-            <div class="col sqs-col-4 span-4">
-            <div
-                class="sqs-block code-block sqs-block-code"
-                data-block-type="23"
-                id="block-3145382570b1853dc741"
-            >
-                <div class="sqs-block-content">
-                <p class="project_title">NUNEPHAR wishes</p>
-                <!-- <p class="project_descr">Berlin, Schmargendorf</p> -->
-                </div>
-            </div>
-            </div>
-            <div class="col sqs-col-8 span-8">
-            <div class="row sqs-row">
-                <div class="col sqs-col-7 span-7">
-                <div
-                    class="sqs-block html-block sqs-block-html"
-                    data-block-type="2"
-                    id="block-4d05921227d72632b694"
-                >
-                    <div class="sqs-block-content">
-                    <p class="ppp">
-                        This luxurious townhouse home model collaboration between Sesan Architects and a top real estate development brand in the Vietnamese market. Inspired by Water Lily, especially the beautiful ancient Egyptian Lily. This flower embodies nobility, wealth, and long-lasting prosperity. The design serves as a wish for all owners to have the best things in life and a bright and everlasting future..
-
-                    </p>
-                    </div>
-                </div>
-                </div>
-                <div class="col sqs-col-1 span-1">
-                <div
-                    class="sqs-block spacer-block sqs-block-spacer"
-                    data-aspect-ratio="5.082212257100149"
-                    data-block-type="21"
-                    id="block-yui_3_17_2_1_1611424945724_5477"
-                >
-                    <div class="sqs-block-content">&nbsp;</div>
-                </div>
-                </div>
-            </div>
-            </div>
-        </div>
-        <div class="row sqs-row">
-            <div class="col sqs-col-12 span-12">
-            <div
-                class="sqs-block html-block sqs-block-html"
-                data-block-type="2"
-                id="block-9e6ab4fa7d9bfa4d91e2"
-            >
-                <div class="sqs-block-content">
-                <p
-                    style="text-align: center; white-space: pre-wrap"
-                    class="sqsrte-small"
-                    data-rte-preserve-empty="true"
-                ></p>
+            <div class="containerflex">
+                <div class="flexitem1"><p>NUNEPHAR ishes</p></div>
                 
+                <div class="flexitem"> This luxurious townhouse home model collaboration between Sesan Architects and a top real estate development brand in the Vietnamese market. Inspired by Water Lily, especially the beautiful ancient Egyptian Lily. This flower embodies nobility, wealth, and long-lasting prosperity. The design serves as a wish for all owners to have the best things in life and a bright and everlasting future..
                 </div>
+             
             </div>
-            </div>
+    
         </div>
-        <p style="text-align:center;white-space:pre-wrap;" class="test"><span>Type: home model</span>    <span>Area: 105 m2/ model home</span>    <span>State: under construction</span>   <span> Year: 2020 - ...</span></p>
+    
+        <div class="con containerflex">
+            <p>
+                <div class="flexitem1"><span>Type: home model</span></div>
+            
+                <div class="flexitem"> 
+                    <span>Area: 105 m2/ model home</span>
+                </div>
+                <div class="flexitem"> 
+                    <span>State: under construction</span>
+                </div>
+                <div class="flexitem"> 
+                    <span> Year: 2020 - ...</span>
+                </div>
+            </p>
+         
+           
+
+        </div>
+
+        <!-- <p style="text-align:center;white-space:pre-wrap;" class="test"><span>Type: home model</span>  
+              <span>Area: 105 m2/ model home</span>    
+              <span>State: under construction</span>   <span> Year: 2020 - ...</span></p> -->
 
         </div>
     </div>
     </div>
 </section>
 <style>
-    .test span{
-    margin-left: 60px;
-    }
-    @media(max-width:1180px){
-    .test span{
-    margin: 0px;
-    font-size: 15px;
-    
-    }}
-    @media(max-width:600px){
-    .test span{
-    margin: 0;
-    font-size:  15px;
-    
-    }
-    
-    }</style>
+   .containerflex {
+            display: flex;                  /* Kích hoạt flexbox cho phần tử chứa */
+        
+            flex-direction: row;            /* Thiết lập hướng chính */
+            flex-wrap: nowrap;              /* Thiết lập chế độ wrap, khi các phần tử vượt qua kích thước hướng chính*/
+            justify-content: space-between;      /* Căn chỉnh nội dung bên trong container có flexbox*/
+            align-items: space-around;           /* Căn chỉnh phần tử con theo hướng vuông góc hướng chính*/
+            align-content: stretch;         /* Căn chỉnh hàng (cột) theo hướng vuông góc (chỉ hiệu lực khi nhiều hàng hoặc cột)*/
+        
+            padding:    5px;
+            min-width:  250px;
+            min-height: 70px;
+            margin:     auto;
+        }
+        .mt666 .containerflex .flexitem{
+            margin-top:10px;
+            text-align:justify;
+        }
+        .flexitem ,.flexitem1    {
+            padding-top:20px;
+            padding-left:20px;
+            padding-right:20px;
+            padding-bottom:5px;
+            margin: 1px;
+        
+        }
+        .flexitem1 p{
+            white-space: nowrap;
+          font-weight:bold;
+            min-width: auto;
+                }
+
+    </style>
 <section
     data-test="page-section"
     data-section-theme="light"
@@ -9062,13 +9050,10 @@ padding-left: 100px;
 .project_title{
     font-weight:bold;
 }
-@media(min-width:600px){
-    .sqs-layout>.sqs-row {
-margin-left: -130px;
-    }}
+
     @media(min-width:1000px) and (max-width:3000px){
         .ppp{
-            padding-left: 100px;        
+            padding-left: 5px;        
         }
         .sqs-block-content{
             margin-left: 40px;;
@@ -9089,34 +9074,40 @@ margin-left: -130px;
             margin-left: 40px;
         }
     }
-    @media(min-width:800px) and (max-width:980px){
-        .page-section:not(.full-bleed-section)>.content-wrapper {
-     padding-right: 0vw;
-    padding-left: 0vw;
-    margin: 0 auto;
-    box-sizing: content-box;
+
+.sqs-block-html .sqs-block-content>*:last-child, .sqs-block-html .sqs-html-content>*:last-child {
+    margin-bottom: 0;
+    /* margin-left: 13%; */
+    width: 115%;
 }
-.test span{
-            margin: 5px;
-        }
-        .test{
-            margin-left: -40px;
-        }
-        .sqs-layout>.sqs-row {
-margin-left: 0px;
-    }
-    }
-    @media(min-width:900px) and (max-width:980px){
-        .test span{
-            margin: px;
-        }
-    }
-    @media(min-width:750px) and (max-width:800px){
-        .page-section:not(.full-bleed-section)>.content-wrapper {
-     padding-right: 0vw;
-    padding-left: 1vw;
-    margin: 0 auto;
-    box-sizing: content-box;
+#block-3145382570b1853dc741 .sqs-block-content p#project_title {
+    font-size: 1.4rem;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+    width: 110%;
+}
+.sqs-layout > .sqs-row {
+    /* margin-left: -17px; */
+    margin-right: -17px;
+    padding:0 20px;
+}
+.sqs-row {
+    justify-content: end;
+}
+.ppp{
+    width:102%;
+}
+
+
+.sqs-block-html .sqs-block-content>*:last-child, .sqs-block-html .sqs-html-content>*:last-child {
+    margin-bottom: 0;
+    width: 107%;
+}
+.sqs-layout > .sqs-row {
+    /* margin-left: -17px; */
+    margin-right: -17px;
+    padding: 0 0px;
 }
 .test span{
             margin: 4px;
@@ -9124,10 +9115,102 @@ margin-left: 0px;
         .test{
             margin-left: -30px;
         }
-        .sqs-layout>.sqs-row {
-margin-left: 0px;
+
     }
-    }
+    #block-3145382570b1853dc741 .sqs-block-content p#project_title{
+    font-size: 1.4rem;
+    text-align:left;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+[class*=sqs-col] .sqs-block {
+    padding-left: 17px;
+    /* padding-right: 17px; */
+}
+.sqs-layout > .sqs-row {
+    /* margin-left: -17px; */
+    margin-right: -17px;
+    padding:0 60px;
+}
+.ppp{
+    width:102%;
+}
+@media(min-width:730px) and (max-width:900px){
+  .sqs-layout > .sqs-row {
+    /* margin-left: -17px; */
+    margin-right: -17px;
+    padding: 0 30px;
+}
+.flexitem, .flexitem1 {
+    padding-top: 7px;
+    padding-left: 30px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    margin: 1px;
+    
+}
+.sqs-layout > .sqs-row {
+    /* margin-left: 0px; */
+    /* margin-right: -17px; */
+}
+.page-section:not(.full-bleed-section)>.content-wrapper {
+    padding-right: 3vw;
+    /* padding-left: 3vw; */
+    margin: 0 auto;
+    box-sizing: content-box;
+}
+.flexitem, .flexitem1 {
+    padding-top: 7px;
+    /* padding-left: 20px; */
+    padding-right: 0px;
+    padding-bottom: 10px;
+    margin: 1px;
+}
+.containerflex span{
+  font-size:12px;
+}
+}
+@media(max-width:600px){
+    .containerflex {
+    display: block;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: space-around;
+    align-content: stretch;
+    padding: 5px;
+    min-width: 250px;
+    min-height: 70px;
+    margin: auto;
+}
+.sqs-layout > .sqs-row {
+    /* margin-left: -17px; */
+    margin-right: -17px;
+    padding: 0 0px;
+}
+
+.con{
+    display:flex;
+}
+.con span{
+    font-size:10px;
+    padding:0px;
+}
+.con .flexitem, .flexitem1 {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    margin: 1px;
+}
+.flexitem1 p {
+    white-space: nowrap;
+    font-weight: bold;
+    min-width: auto;
+    text-align:center;
+}
+}
+
 </style>
 <script type="text/javascript">
 window.addEventListener('scroll',function(){
