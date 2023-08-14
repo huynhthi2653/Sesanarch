@@ -112,3 +112,10 @@ text-align: center;
     
 }
 }
+@media(min-width:700px) and (max-width:900px){
+    .flexitem23 {
+        padding: 0px 0px;
+    }
+}
+
+ 
