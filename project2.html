@@ -70,17 +70,27 @@
                   
               </div>
           
-             <script>
-         
-function openCity(cityName) {
-  var i;
-  var x = document.getElementsByClassName("city");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  document.getElementById(cityName).style.display = "block";  
-}
-             </script>
+              <script>
+                document.addEventListener("click", function(event) {
+                  var dropdown = document.getElementById("dropdown"); // Thay "dropdown" bằng ID thật của dropdown của bạn
+                  if (!dropdown.contains(event.target)) {
+                    // Kiểm tra xem người dùng đã nhấp chuột bên ngoài dropdown chưa
+                    var x = document.getElementsByClassName("city");
+                    for (var i = 0; i < x.length; i++) {
+                      x[i].style.display = "none";  
+                    }
+                  }
+                });
+                
+                function openCity(cityName) {
+                  var i;
+                  var x = document.getElementsByClassName("city");
+                  for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                  }
+                  document.getElementById(cityName).style.display = "block";  
+                }
+                </script>
               <style>
   .dropdown{
     position: absolute;
@@ -719,16 +729,7 @@ data-aos-offset="0">
          });
      
      </script>
-     <script>
-       function openCity(cityName) {
-         var i;
-         var x = document.getElementsByClassName("city");
-         for (i = 0; i < x.length; i++) {
-           x[i].style.display = "none";  
-         }
-         document.getElementById(cityName).style.display = "block";  
-       }
-       </script>
+   
                    <style>
 
                      @import url(https://fonts.googleapis.com/css?family=Raleway);
