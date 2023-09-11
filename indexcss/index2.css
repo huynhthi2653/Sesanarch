@@ -2635,7 +2635,7 @@ header.sticky .toggle
 
 .about .contentBx1{
 width: 100%;
-margin-top: -15px;
+
 }
 .cell-a .inside {
 transition:  transform 0.3s ease-in;
@@ -2669,7 +2669,6 @@ width: 100%;
 }
 .cell-a .thongtin{
 width: 230%;
-margin-top: -20px;
 min-height: 140%;
 margin-left: -10px;
 font-size: 18px;
@@ -3883,7 +3882,7 @@ margin-left: 10px;
 }
 @media(max-width:420px ) and (min-width:400px){
   .about .contentBx1 {
-  margin-top: -40px;
+  margin-top: -50px;
   }
   .cell-a .thongtin{
     width: 246%;
@@ -3896,10 +3895,10 @@ margin-left: 10px;
   
   }
   .grid .cell{
-    margin-top: 110px;
+    margin-top: 10px;
   }
   .contentBx1 p{
-    font-size: 16.7px;
+    font-size: 17px;
   }
   #contentBx1 p{
     font-size:10px;
@@ -3909,10 +3908,10 @@ margin-left: 10px;
     margin: 0 auto;
   }
   .cell-a .thongtin .thongtin1 p{
-    font-size: 16px;
+    font-size: 13.5px;
   }
 .cell-a:hover .inside .thongtin .thongtin1 p{
-  font-size: 16px;
+  font-size: 13.5px;
 }
   #about h2{
     margin-left: 4px;
@@ -4166,7 +4165,7 @@ margin-left: 10px;
 
 @media(max-width:399px) and (min-width:382px){
   .about .contentBx1{
-    margin-top: -30px;
+    margin-top: -50px;
   }
   .cell-a .thongtin{
     width: 255%;
@@ -4180,6 +4179,9 @@ margin-left: 10px;
   }
   .cell-a .thongtin .thongtin1 p{
     font-size: 14px;
+  }
+  .grid .cell{
+    margin-top: 30px;
   }
 .cell-a:hover .inside .thongtin .thongtin1 p{
   font-size: 14px;
@@ -4384,18 +4386,21 @@ margin-left: 10px;
 @media(max-width:376px ) and (min-width:374px){
   .cell-a .thongtin{
     width: 257%;
-    margin-top: -40px;
-    min-height: 160%;
+    margin-top: -55px;
+    min-height: 150%;
     z-index: 1;
     font-size: 16px;
     margin-bottom: 30px;
   
   }
+.about .contentBx1{
+  margin-top: -50px;
+}
   .cell-a .thongtin .thongtin1 p{
-    font-size: 14px;
+    font-size: 13.5px;
   }
 .cell-a:hover .inside .thongtin .thongtin1 p{
-  font-size: 14px;
+  font-size: 13.5px;
 }
   .contentBx1 p{
     font-size: 16px;

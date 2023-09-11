@@ -2274,7 +2274,6 @@ header.sticky .toggle
 
 .about .contentBx1{
 width: 100%;
-margin-top: 10px;
 
 }
 .cell-a .inside {
@@ -2309,7 +2308,8 @@ width: 100%;
 }
 .cell-a .thongtin{
 width: 230%;
-margin-top: -20px;
+/*lỗi ở đây
+/* margin-top: -20px; */
 min-height: 140%;
 margin-left: -10px;
 font-size: 18px;
@@ -3473,29 +3473,35 @@ margin-left: 10px;
   
  
 }
+
+
 @media(max-width:420px ) and (min-width:400px){
+  .about .contentBx1{
+    margin-top: -70px;
+  }
   .cell-a .thongtin{
     width: 246%;
-    margin-top: -45px;
-    min-height: 185%;
+    margin-top: -58px;
+    min-height: 152%;
     z-index: 1;
     font-size: 17px;
     margin-bottom: 20px;
     background-color: white;
   
   }
+
   .grid .cell{
-    margin-top: 8px;
+    margin-top: 27px;
   }
   #contact{
     width: 70%;
     margin: 0 auto;
   }
   .cell-a .thongtin .thongtin1 p{
-    font-size: 16px;
+    font-size: 15px;
   }
 .cell-a:hover .inside .thongtin .thongtin1 p{
-  font-size: 16px;
+  font-size: 15px;
 }
   #about h2{
     margin-left: 4px;
@@ -3673,7 +3679,7 @@ margin-left: 10px;
   
   }
   .grid .cell{
-    margin-top: 15px;
+    margin-top: 25px;
   }
   .contentBx1 p{
     font-size: 16.2px;
@@ -3890,7 +3896,7 @@ margin-left: 10px;
   .cell-a .thongtin{
     width: 250%;
     margin-top: -60px;
-    min-height: 190%;
+    min-height: 150%;
     z-index: 1;
     font-size: 16px;
 
@@ -3902,24 +3908,13 @@ margin-left: 10px;
     margin-bottom: 30px;
   }
   .grid .cell{
-    margin-top: 50px;
+    margin-top: 10px;
   }
   .cell-a .thongtin .thongtin1 p{
-    font-size: 13px;
+    font-size: 13.5px;
   }
 .cell-a:hover .inside .thongtin .thongtin1 p{
-  font-size: 13px;
-}
-  .contentBx1 p{
-    font-size: 22px;
-  }
- 
-
-  .cell-a .thongtin .thongtin1 p{
-    font-size: 15px;
-  }
-.cell-a:hover .inside .thongtin .thongtin1 p{
-  font-size: 15px;
+  font-size: 13.5px;
 }
 
 
@@ -3935,15 +3930,19 @@ margin-left: 10px;
       .wrapper{
         margin: 40px auto 105px;
       }
+      .about .contentBx1{
+        margin-top: -55px;
+      }
       .contentBx1{
         padding-left: 10px;;
         text-align: justify;
-        margin-top: -20px;
+      
       }
       
       .contentBx1 p{
         font-size: 16.3px;
         width: 100%;
+      
       }
       .contentBx1 h3{
         font-size: 5px;
